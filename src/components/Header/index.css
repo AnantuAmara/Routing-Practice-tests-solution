@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image {
+  height: 15px;
+  width: 15px;
+  margin-left: 30px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.paragraph {
+  color: #12022f;
+  font-size: 11px;
+  font-family: 'Roboto';
+  padding: 2px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #12022f;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding: 5px;
+}
